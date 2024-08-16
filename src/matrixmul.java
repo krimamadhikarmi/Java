@@ -3,7 +3,6 @@ public class matrixmul {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        // Read dimensions of matrices
         System.out.print("Enter number of rows of first matrix: ");
         int rows1 = scanner.nextInt();
         System.out.print("Enter number of columns of first matrix (and rows of second matrix): ");
