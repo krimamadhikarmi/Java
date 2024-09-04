@@ -4,12 +4,12 @@ public class overriding {
         obj.displayInfo();
     }
 }
-class Animal{
+class AnimalB{
     public void displayInfo(){
         System.out.println("I am an animal");
     }
 }
-class Dog extends Animal{
+class Dog extends AnimalB{
     @Override
     public void displayInfo(){
         System.out.println("I am a dog");
