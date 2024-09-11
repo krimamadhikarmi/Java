@@ -11,7 +11,6 @@ public class gridLayout {
     private JPasswordField passwordText;
     private JButton loginButton;
     private JButton resetButton;
-    private JLabel messageLabel;
     gridLayout()
     {
         f=new JFrame();
@@ -42,8 +41,6 @@ public class gridLayout {
 
         f.setSize(300,200);
         f.setVisible(true);
-
-
     }
     public static void main(String[] args) {
         new gridLayout();
